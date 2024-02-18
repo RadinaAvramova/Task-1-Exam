@@ -8,7 +8,7 @@ services:
             - data:/data/db
         image: mongo
         networks:
-          - goals
+          - shoppinglist
     backend:
         ports:
             - 80:80
